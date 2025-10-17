@@ -5,47 +5,5 @@
       "src": "package.json",
       "use": "@vercel/next"
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/health",
-      "dest": "/api/health"
-    },
-    {
-      "src": "/api/recitations",
-      "dest": "/api/recitations"
-    },
-    {
-      "src": "/api/debug",
-      "dest": "/api/debug"
-    },
-    {
-      "src": "/api/simple",
-      "dest": "/api/simple"
-    },
-    {
-      "src": "/goals",
-      "dest": "/goals"
-    },
-    {
-      "src": "/reports",
-      "dest": "/reports"
-    },
-    {
-      "src": "/settings",
-      "dest": "/settings"
-    },
-    {
-      "src": "/test",
-      "dest": "/test"
-    },
-    {
-      "src": "/simple",
-      "dest": "/simple"
-    },
-    {
-      "src": "/",
-      "dest": "/"
-    }
   ]
 }
