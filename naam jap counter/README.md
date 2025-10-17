@@ -95,6 +95,8 @@ The system uses voice recognition to automatically recognize recited god names a
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 6. Deploy!
 
+For detailed instructions on setting environment variables during deployment, see [ENVIRONMENT_VARIABLES_DEPLOYMENT.md](ENVIRONMENT_VARIABLES_DEPLOYMENT.md)
+
 ## Folder Structure
 ```
 src/

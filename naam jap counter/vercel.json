@@ -8,7 +8,35 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/health",
+      "dest": "/api/health"
+    },
+    {
+      "src": "/api/recitations",
+      "dest": "/api/recitations"
+    },
+    {
+      "src": "/api/test",
+      "dest": "/api/test"
+    },
+    {
+      "src": "/goals",
+      "dest": "/goals"
+    },
+    {
+      "src": "/reports",
+      "dest": "/reports"
+    },
+    {
+      "src": "/settings",
+      "dest": "/settings"
+    },
+    {
+      "src": "/test",
+      "dest": "/test"
+    },
+    {
+      "src": "/",
       "dest": "/"
     }
   ]
