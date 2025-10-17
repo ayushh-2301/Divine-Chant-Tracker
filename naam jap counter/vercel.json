@@ -16,8 +16,12 @@
       "dest": "/api/recitations"
     },
     {
-      "src": "/api/test",
-      "dest": "/api/test"
+      "src": "/api/debug",
+      "dest": "/api/debug"
+    },
+    {
+      "src": "/api/simple",
+      "dest": "/api/simple"
     },
     {
       "src": "/goals",
@@ -34,6 +38,10 @@
     {
       "src": "/test",
       "dest": "/test"
+    },
+    {
+      "src": "/simple",
+      "dest": "/simple"
     },
     {
       "src": "/",
