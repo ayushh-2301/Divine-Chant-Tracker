@@ -1,3 +1,4 @@
+// Health check API route for Divine Chant Tracker
 export async function GET() {
   return Response.json({ 
     status: 'ok', 

@@ -1,4 +1,4 @@
-// API route for handling recitations data
+// Recitations API route for Divine Chant Tracker
 import { NextResponse } from 'next/server';
 
 // Mock data
