@@ -22,6 +22,7 @@ export default function Home() {
   const recognition = SpeechRecognition ? new SpeechRecognition() : null;
 
   useEffect(() => {
+    console.log('Home page loaded successfully');
     if (recognition) {
       recognition.continuous = true;
       recognition.interimResults = true;
